@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/productlist_sdv"
+        android:layout_width="150dp"
+        android:layout_height="170dp" />
+
+    <TextView
+        android:id="@+id/productlist_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/productlist_sdv"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/productlist_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/productlist_bt" />
+
+    <TextView
+        android:id="@+id/productlist_sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/productlist_sdv"
+        android:layout_alignEnd="@+id/productlist_price"
+        android:text="TextView" />
+</RelativeLayout>

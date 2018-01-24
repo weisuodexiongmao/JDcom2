@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<com.facebook.drawee.view.SimpleDraweeView
+    android:id="@+id/classify_Rlv3Sdv"
+    android:layout_width="80dp"
+    android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/class_Rlv3text"
+        android:text="手机"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
